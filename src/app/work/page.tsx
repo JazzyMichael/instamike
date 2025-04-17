@@ -2,31 +2,80 @@ import Card from "@/components/card";
 
 export default function Page() {
   const jobs = [
-    { company: "Goji Systems", title: "Software Engineer", date: "2023-10-01" },
-    { company: "Ownable", title: "Software Engineer", date: "2023-09-15" },
-    { company: "goPuff", title: "Software Engineer", date: "2023-09-01" },
-    { company: "Bitovi", title: "Software Engineer", date: "2023-08-15" },
-    { company: "Wolfe", title: "Software Engineer", date: "2023-08-01" },
     {
-      company: "Big Tech Company in Silicon Valley",
+      company: "Goji Systems",
+      companyName: "Goji Systems",
       title: "Software Engineer",
-      date: "2023-07-15",
+      startDate: "2023-10-01",
+      endDate: null,
+      date: "2023-10-01",
+      image: "https://placehold.co/320x300",
+      companyImage: "https://randomuser.me/api/portraits/men/1.jpg",
+      description: "Self-ordering kiosks for restaurants.",
+    },
+    {
+      company: "Ownable",
+      companyName: "Ownable",
+      title: "Software Engineer",
+      startDate: "2023-09-15",
+      endDate: "2023-09-30",
+      date: "2023-09-15",
+      image: "https://placehold.co/320x300",
+      companyImage: "https://randomuser.me/api/portraits/men/1.jpg",
+      description: "Rent-to-own e-commerce and fintech platform.",
+    },
+    {
+      company: "goPuff",
+      companyName: "goPuff",
+      title: "Software Engineer",
+      startDate: "2023-09-01",
+      endDate: "2023-09-14",
+      date: "2023-09-01",
+      image: "https://placehold.co/320x300",
+      companyImage: "https://randomuser.me/api/portraits/men/1.jpg",
+      description: "Snack delivery.",
+    },
+    {
+      company: "Bitovi",
+      companyName: "Bitovi",
+      title: "Software Consultant",
+      startDate: "2023-08-15",
+      endDate: "2023-08-31",
+      date: "2023-08-15",
+      image: "https://placehold.co/320x300",
+      companyImage: "https://randomuser.me/api/portraits/men/1.jpg",
+      description: "Apple App Store Ads Platform & KFC.com",
+    },
+    {
+      company: "Wolfe",
+      companyName: "Wolfe",
+      title: "Senior Software Engineer",
+      startDate: "2023-08-01",
+      endDate: "2023-08-14",
+      date: "2023-08-01",
+      image: "https://placehold.co/320x300",
+      companyImage: "https://randomuser.me/api/portraits/men/1.jpg",
+      description:
+        "Developed backend services and integrated third-party APIs at Wolfe.",
+    },
+    {
+      company: "California",
+      companyName: "Big Tech Company in Silicon Valley",
+      title: "SWE Product",
+      startDate: "2023-08-01",
+      endDate: "2023-08-14",
+      date: "2023-08-01",
+      image: "https://placehold.co/320x300",
+      companyImage: "https://randomuser.me/api/portraits/men/1.jpg",
+      description: "This could be you!",
     },
   ];
-
-  const post = {
-    profilePic: "https://randomuser.me/api/portraits/men/1.jpg",
-    username: "john_doe",
-    image: "https://placehold.co/320x300",
-    likes: 245,
-    comments: 78,
-  };
 
   return (
     <div className="p-4">
       <div>
         {jobs.map((job) => (
-          <Card key={job.company} post={post} />
+          <Card key={job.company} data={job} />
         ))}
       </div>
 
