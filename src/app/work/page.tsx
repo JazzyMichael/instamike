@@ -37,10 +37,10 @@ export default function Page() {
           className="w-24 h-24 m-auto"
         />
         <span className="text-black text-lg font-semibold">
-          You're all caught up
+          You&apos;re all caught up
         </span>
         <span className="text-gray-600 text-sm">
-          You've seen all new jobs from the past 7 years.
+          You&apos;ve seen all new jobs from the past 7 years.
         </span>
       </div>
     </div>
