@@ -5,6 +5,8 @@ const projects = [
     link: "https://www.xtrades.net/",
     animation: "fade-up",
     description: "A gamified social app for stock and options trading.",
+    image:
+      "https://github.com/JazzyMichael/Portfolio/blob/main/public/projects/XTrades-Logo.png?raw=true",
   },
   {
     title: "BinderView",
@@ -13,6 +15,8 @@ const projects = [
     animation: "fade-up-right",
     description:
       "Elegant app to view Pokemon cards with filters and price analysis tools.",
+    image:
+      "https://raw.githubusercontent.com/JazzyMichael/BinderView/refs/heads/main/public/screenshots/binder-view.jpg",
   },
   {
     title: "The Art of Cooking Salmon",
@@ -21,6 +25,8 @@ const projects = [
     animation: "fade-left",
     description:
       "Social network exclusively for salmon pictures and recipes built as a hybrid app.",
+    image:
+      "https://github.com/JazzyMichael/Portfolio/blob/main/public/projects/Salmon-Logo.jpeg?raw=true",
   },
   {
     title: "Essentials Anonymous",
@@ -29,6 +35,8 @@ const projects = [
     animation: "zoom-in",
     description:
       "Anonymous social network for essential workers during the pandemic.",
+    image:
+      "https://raw.githubusercontent.com/JazzyMichael/essentials/refs/heads/master/icons/iOS/iTunesArtwork.png",
   },
   {
     title: "Carona Balona",
@@ -36,6 +44,8 @@ const projects = [
     link: "https://caronabalona.com/",
     animation: "fade-right",
     description: "Covid stats visualizer and data analysis features.",
+    image:
+      "https://github.com/JazzyMichael/Portfolio/blob/main/public/projects/Carona-Balona-Logo.jpeg?raw=true",
   },
   {
     title: "Plebeian Marketplace",
@@ -43,6 +53,8 @@ const projects = [
     link: "https://github.com/Jappzy/plebeian-deli",
     animation: "fade-down-left",
     description: "Marketplace for artists to sell their work.",
+    image:
+      "https://github.com/JazzyMichael/Portfolio/blob/main/public/projects/Plebeian-Logo.jpeg?raw=true",
   },
   {
     title: "Menu Mash",
@@ -51,13 +63,12 @@ const projects = [
     animation: "fade-down",
     description:
       "'Tinder for food' app that jumbles menu items from local restaurants to swipe your way to your next meal!",
+    image:
+      "https://github.com/JazzyMichael/Portfolio/blob/main/public/projects/Menu-Mash-Logo.jpeg?raw=true",
   },
 ];
 
 export default function Page() {
-  const img =
-    "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg";
-
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -70,7 +81,7 @@ export default function Page() {
             <div key={project.title} className="group relative">
               <img
                 alt={"Image"}
-                src={img}
+                src={project.image}
                 className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
               />
               <div className="mt-4 flex justify-between">
