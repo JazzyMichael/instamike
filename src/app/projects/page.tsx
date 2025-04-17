@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     title: "XTrades",
     logo: "XTrades-Logo.png",
