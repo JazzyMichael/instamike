@@ -17,7 +17,7 @@ export default function Page() {
   const post = {
     profilePic: "https://randomuser.me/api/portraits/men/1.jpg",
     username: "john_doe",
-    image: "https://via.placeholder.com/320x300",
+    image: "https://placehold.co/320x300",
     likes: 245,
     comments: 78,
   };

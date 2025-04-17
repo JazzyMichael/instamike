@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="p-12">
@@ -10,7 +8,7 @@ export default function Home() {
       <br />
 
       <div>
-        I’m seeking an onsite opportunity in Silicon Valley because I believe
+        Im seeking an onsite opportunity in Silicon Valley because I believe
         the highest levels of growth, both personally and professionally, happen
         in environments where the bar is set very high. I want to immerse myself
         in a culture filled with brilliant, hard-working individuals who are
@@ -25,7 +23,7 @@ export default function Home() {
         Meta is especially exciting to me because of the massive impact it
         has—connecting billions of people across the world. I care deeply about
         building software that brings people together and makes the world feel
-        smaller, kinder, and more open. On top of that, I’ve always admired
+        smaller, kinder, and more open. On top of that, Ive always admired
         Meta’s contributions to open-source and dev tooling—React and React
         Native have been part of my daily toolkit for years. The product-minded
         engineering culture at Meta is another major draw: I believe that in

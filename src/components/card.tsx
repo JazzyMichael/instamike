@@ -16,7 +16,17 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { EllipsisVerticalIcon } from "@heroicons/react/20/solid";
 
-export default function Card({ post }: any) {
+export default function Card({
+  post,
+}: {
+  post: {
+    profilePic: string;
+    username: string;
+    image: string;
+    likes: number;
+    comments: number;
+  };
+}) {
   return (
     <div className="border-b-1 border-gray-300 pb-8 m-8 bg-white w-lg max-w-screen mx-auto">
       {/* Profile Section */}
