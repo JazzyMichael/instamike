@@ -11,7 +11,7 @@ const projects = [
   {
     title: "BinderView",
     logo: "Pokecards-Logo.jpeg",
-    link: "https://pokecards-app.web.app/",
+    link: "https://binderview.com/",
     animation: "fade-up-right",
     description:
       "Elegant app to view Pokemon cards with filters and price analysis tools.",
@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Carona Balona",
     logo: "Carona-Balona-Logo.jpeg",
-    link: "https://caronabalona.com/",
+    link: "https://carona-balona.web.app/",
     animation: "fade-right",
     description: "Covid stats visualizer and data analysis features.",
     image:
